@@ -8,26 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		82FD048E24CC9BC300A68767 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FD048D24CC9BC300A68767 /* AppDelegate.swift */; };
-		82FD049024CC9BC300A68767 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 82FD048F24CC9BC300A68767 /* GameScene.sks */; };
-		82FD049224CC9BC300A68767 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 82FD049124CC9BC300A68767 /* Actions.sks */; };
-		82FD049424CC9BC300A68767 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FD049324CC9BC300A68767 /* GameScene.swift */; };
-		82FD049624CC9BC300A68767 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FD049524CC9BC300A68767 /* GameViewController.swift */; };
+		82FD049424CC9BC300A68767 /* VideoChatScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FD049324CC9BC300A68767 /* VideoChatScene.swift */; };
+		82FD049624CC9BC300A68767 /* VideoChatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FD049524CC9BC300A68767 /* VideoChatController.swift */; };
 		82FD049924CC9BC300A68767 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82FD049724CC9BC300A68767 /* Main.storyboard */; };
 		82FD049B24CC9BC700A68767 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82FD049A24CC9BC700A68767 /* Assets.xcassets */; };
 		82FD049E24CC9BC700A68767 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82FD049C24CC9BC700A68767 /* LaunchScreen.storyboard */; };
+		82FD04A924CCC89B00A68767 /* CameraPreviewNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FD04A824CCC89B00A68767 /* CameraPreviewNode.swift */; };
+		82FD04AD24CCD9C000A68767 /* CameraModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FD04AC24CCD9C000A68767 /* CameraModel.swift */; };
+		82FD04AF24CD930500A68767 /* VideoChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FD04AE24CD930500A68767 /* VideoChatViewModel.swift */; };
+		82FD04B124CD957000A68767 /* SKTexture+CMSampleBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FD04B024CD957000A68767 /* SKTexture+CMSampleBuffer.swift */; };
+		82FD04B324CD98E700A68767 /* DeviceUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FD04B224CD98E700A68767 /* DeviceUtility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		82FD048A24CC9BC300A68767 /* SpriteKitCameraChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpriteKitCameraChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82FD048D24CC9BC300A68767 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		82FD048F24CC9BC300A68767 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		82FD049124CC9BC300A68767 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		82FD049324CC9BC300A68767 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		82FD049524CC9BC300A68767 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		82FD049324CC9BC300A68767 /* VideoChatScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoChatScene.swift; sourceTree = "<group>"; };
+		82FD049524CC9BC300A68767 /* VideoChatController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoChatController.swift; sourceTree = "<group>"; };
 		82FD049824CC9BC300A68767 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		82FD049A24CC9BC700A68767 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82FD049D24CC9BC700A68767 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82FD049F24CC9BC700A68767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82FD04A824CCC89B00A68767 /* CameraPreviewNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewNode.swift; sourceTree = "<group>"; };
+		82FD04AC24CCD9C000A68767 /* CameraModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraModel.swift; sourceTree = "<group>"; };
+		82FD04AE24CD930500A68767 /* VideoChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoChatViewModel.swift; sourceTree = "<group>"; };
+		82FD04B024CD957000A68767 /* SKTexture+CMSampleBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKTexture+CMSampleBuffer.swift"; sourceTree = "<group>"; };
+		82FD04B224CD98E700A68767 /* DeviceUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceUtility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,17 +66,60 @@
 		82FD048C24CC9BC300A68767 /* SpriteKitCameraChat */ = {
 			isa = PBXGroup;
 			children = (
+				82FD04AB24CCD9AA00A68767 /* Helpers */,
+				82FD04AA24CCCAE200A68767 /* Extensions */,
+				82FD04A524CCC6EA00A68767 /* Stories */,
 				82FD048D24CC9BC300A68767 /* AppDelegate.swift */,
-				82FD048F24CC9BC300A68767 /* GameScene.sks */,
-				82FD049124CC9BC300A68767 /* Actions.sks */,
-				82FD049324CC9BC300A68767 /* GameScene.swift */,
-				82FD049524CC9BC300A68767 /* GameViewController.swift */,
 				82FD049724CC9BC300A68767 /* Main.storyboard */,
 				82FD049A24CC9BC700A68767 /* Assets.xcassets */,
 				82FD049C24CC9BC700A68767 /* LaunchScreen.storyboard */,
 				82FD049F24CC9BC700A68767 /* Info.plist */,
 			);
 			path = SpriteKitCameraChat;
+			sourceTree = "<group>";
+		};
+		82FD04A524CCC6EA00A68767 /* Stories */ = {
+			isa = PBXGroup;
+			children = (
+				82FD04A624CCC72200A68767 /* MainScreen */,
+			);
+			path = Stories;
+			sourceTree = "<group>";
+		};
+		82FD04A624CCC72200A68767 /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				82FD04A724CCC74700A68767 /* Views */,
+				82FD049524CC9BC300A68767 /* VideoChatController.swift */,
+				82FD04AE24CD930500A68767 /* VideoChatViewModel.swift */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		82FD04A724CCC74700A68767 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				82FD049324CC9BC300A68767 /* VideoChatScene.swift */,
+				82FD04A824CCC89B00A68767 /* CameraPreviewNode.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		82FD04AA24CCCAE200A68767 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				82FD04B024CD957000A68767 /* SKTexture+CMSampleBuffer.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		82FD04AB24CCD9AA00A68767 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				82FD04AC24CCD9C000A68767 /* CameraModel.swift */,
+				82FD04B224CD98E700A68767 /* DeviceUtility.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,10 +181,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				82FD049924CC9BC300A68767 /* Main.storyboard in Resources */,
-				82FD049024CC9BC300A68767 /* GameScene.sks in Resources */,
 				82FD049B24CC9BC700A68767 /* Assets.xcassets in Resources */,
 				82FD049E24CC9BC700A68767 /* LaunchScreen.storyboard in Resources */,
-				82FD049224CC9BC300A68767 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,9 +193,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82FD049424CC9BC300A68767 /* GameScene.swift in Sources */,
-				82FD049624CC9BC300A68767 /* GameViewController.swift in Sources */,
+				82FD04AF24CD930500A68767 /* VideoChatViewModel.swift in Sources */,
+				82FD04B124CD957000A68767 /* SKTexture+CMSampleBuffer.swift in Sources */,
+				82FD04B324CD98E700A68767 /* DeviceUtility.swift in Sources */,
+				82FD049424CC9BC300A68767 /* VideoChatScene.swift in Sources */,
+				82FD049624CC9BC300A68767 /* VideoChatController.swift in Sources */,
+				82FD04AD24CCD9C000A68767 /* CameraModel.swift in Sources */,
 				82FD048E24CC9BC300A68767 /* AppDelegate.swift in Sources */,
+				82FD04A924CCC89B00A68767 /* CameraPreviewNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,7 +276,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -278,7 +330,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
